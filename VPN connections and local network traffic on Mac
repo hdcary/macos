@@ -1,5 +1,0 @@
-# 在MacOS上如何使VPN连接的情况下，本地网络可以连接和使用
-Mac有一系列简洁的网络工具可以用来解决这个问题，最简单的方法是route：
-```# route <target> <gateway>
-sudo route -nv add -net 10.0 192.168.1.1
-```
